@@ -7,7 +7,7 @@ gulp.task('build', ['build-ts', 'styles', 'vendor']);
 gulp.task('watch', ['watch-ts', 'watch-html', 'watch-less']);
 
 gulp.task('watch-html', function () {
-    gulp.watch(config.templates.html, ['templates']);
+    gulp.watch(config.html.src, ['html']);
 });
 
 gulp.task('watch-less', function () {

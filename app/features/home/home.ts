@@ -1,4 +1,0 @@
-
-import './home.controller';
-
-export {};

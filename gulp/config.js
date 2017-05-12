@@ -14,10 +14,10 @@ module.exports = {
             './node_modules/almond/almond.js'// "It's a good idea to bundle almond.js last, to avoid third party libraries trying to expose themselves as amd modules"
         ]
     },
-    'templates': {
-        'html': './app/**/*.html',
+    'html': {
+        'src': './app/**/*.html',
         'file': 'templates.*',
-        'dest': './app/',
+        'dest': '',
         'options': {
             'module': 'app.templates',
             'standalone': true
